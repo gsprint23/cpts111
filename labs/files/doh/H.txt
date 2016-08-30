@@ -1,0 +1,16 @@
+HHHHHHHHH     HHHHHHHHH
+H:::::::H     H:::::::H
+H:::::::H     H:::::::H
+HH::::::H     H::::::HH
+  H:::::H     H:::::H  
+  H:::::H     H:::::H  
+  H::::::HHHHH::::::H  
+  H:::::::::::::::::H  
+  H:::::::::::::::::H  
+  H::::::HHHHH::::::H  
+  H:::::H     H:::::H  
+  H:::::H     H:::::H  
+HH::::::H     H::::::HH
+H:::::::H     H:::::::H
+H:::::::H     H:::::::H
+HHHHHHHHH     HHHHHHHHH

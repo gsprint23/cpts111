@@ -1,0 +1,16 @@
+YYYYYYY       YYYYYYY
+Y:::::Y       Y:::::Y
+Y:::::Y       Y:::::Y
+Y::::::Y     Y::::::Y
+YYY:::::Y   Y:::::YYY
+   Y:::::Y Y:::::Y   
+    Y:::::Y:::::Y    
+     Y:::::::::Y     
+      Y:::::::Y      
+       Y:::::Y       
+       Y:::::Y       
+       Y:::::Y       
+       Y:::::Y       
+    YYYY:::::YYYY    
+    Y:::::::::::Y    
+    YYYYYYYYYYYYY    

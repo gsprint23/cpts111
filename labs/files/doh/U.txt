@@ -1,0 +1,16 @@
+UUUUUUUU     UUUUUUUU
+U::::::U     U::::::U
+U::::::U     U::::::U
+UU:::::U     U:::::UU
+ U:::::U     U:::::U 
+ U:::::D     D:::::U 
+ U:::::D     D:::::U 
+ U:::::D     D:::::U 
+ U:::::D     D:::::U 
+ U:::::D     D:::::U 
+ U:::::D     D:::::U 
+ U::::::U   U::::::U 
+ U:::::::UUU:::::::U 
+  UU:::::::::::::UU  
+    UU:::::::::UU    
+      UUUUUUUUU      

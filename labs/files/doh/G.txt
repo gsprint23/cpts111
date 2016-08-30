@@ -1,0 +1,16 @@
+        GGGGGGGGGGGGG
+     GGG::::::::::::G
+   GG:::::::::::::::G
+  G:::::GGGGGGGG::::G
+ G:::::G       GGGGGG
+G:::::G              
+G:::::G              
+G:::::G    GGGGGGGGGG
+G:::::G    G::::::::G
+G:::::G    GGGGG::::G
+G:::::G        G::::G
+ G:::::G       G::::G
+  G:::::GGGGGGGG::::G
+   GG:::::::::::::::G
+     GGG::::::GGG:::G
+        GGGGGG   GGGG
