@@ -170,12 +170,14 @@ display_gpa(gpa)
 
 
 # ## Program Execution Revisited
-# * Functions need to be defined *above* any code that calls the function.
+# * Python exececutes code from top to bottom; however, read a program based on it's execution *flow*, not necessarily from top to bottom.
 # * Function definitions do not alter the flow of program execution.
-# * Statements in a function definition are not executed until  the function is *called*.
-# * When a function finishes executing, the next C statement after the function call is executed.
+#     * When Python encounters a function definition, it notes the existence of the function, but does not execute the function
+# * Statements in a function definition are not executed until the function is *called*. 
+#     * Calling a function alters the top to bottom flow of program execution
+# * Functions need to be defined *above* any code that calls the function.
+# * When a function finishes executing, the next Python statement after the function call is executed.
 # * Functions can call other functions!
-# * Read a program based on it's execution *flow*, not necessarily from top to bottom.
 
 # ### TODO
 # 1. PA1 is due tonight at midnight.
