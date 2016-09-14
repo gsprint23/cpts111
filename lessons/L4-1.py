@@ -63,7 +63,7 @@ data_type = type(42)
 # ## Example Revisited: Enter Functions
 # Let's write a function called `get_grade_point()`:
 
-# In[1]:
+# In[3]:
 
 def get_grade_point(course_name):
     '''
@@ -110,7 +110,7 @@ print("Your GPA is: %.2f" %(gpa))
 
 # ### Let's write more functions for the other tasks in our program. Remember, 1 function = 1 task = 1 algorithm.
 
-# In[3]:
+# In[4]:
 
 def get_credits(course_name):
     '''
@@ -126,6 +126,13 @@ def compute_weighted_credits(gpa1, gpa2, gpa3, num_credits1, num_credits2, num_c
     '''
     weighted_credits = (num_credits1 * gpa1) + (num_credits2 * gpa2) + (num_credits3 * gpa3)
     return weighted_credits
+
+def sum_credits(credits1, credits2, credits3):
+    '''
+    
+    '''
+    total_credits = credits1 + credits2 + credits3
+    return total_credits
 
 def compute_gpa(weighted_credits, total_num_credits):
     '''
@@ -160,7 +167,7 @@ num_credits3 = get_credits("karate")
 weighted_credits = compute_weighted_credits(gpa1, gpa2, gpa3, num_credits1, num_credits2, num_credits3)
 
 # compute the total number of credits earned
-total_num_credits = num_credits1 + num_credits2 + num_credits3
+total_num_credits = sum_credits(num_credits1, num_credits2, num_credits3)
 
 # copute the average of the grade points
 gpa = compute_gpa(weighted_credits, total_num_credits)
@@ -169,7 +176,7 @@ gpa = compute_gpa(weighted_credits, total_num_credits)
 display_gpa(gpa)
 
 
-# ## Program Execution Revisited
+# #### Program Execution Revisited
 # * Python exececutes code from top to bottom; however, read a program based on it's execution *flow*, not necessarily from top to bottom.
 # * Function definitions do not alter the flow of program execution.
 #     * When Python encounters a function definition, it notes the existence of the function, but does not execute the function
