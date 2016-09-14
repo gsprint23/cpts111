@@ -177,7 +177,7 @@ display_gpa(gpa)
 
 
 # #### Program Execution Revisited
-# * Python exececutes code from top to bottom; however, read a program based on it's execution *flow*, not necessarily from top to bottom.
+# * Python executes code from top to bottom; however, read a program based on it's execution *flow*, not necessarily from top to bottom.
 # * Function definitions do not alter the flow of program execution.
 #     * When Python encounters a function definition, it notes the existence of the function, but does not execute the function
 # * Statements in a function definition are not executed until the function is *called*. 
