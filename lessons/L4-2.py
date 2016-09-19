@@ -52,12 +52,11 @@ def display_gpa(gpa):
 # Variables declared outside of a function are considered *global*. In general, global variables are a [bad idea](http://c2.com/cgi/wiki?GlobalVariablesAreBad) and we try to avoid using them.
 # 
 # ### Local Variables
-# Parameter variables and variables declared within a function are considered *local*. Local variables are only visible from within that function; once function is done, variables go away (space is deallocated).
+# Parameter variables and variables declared within a function are considered *local*. Local variables are only visible from within that function; once function is done, variables go away (space is deallocated). Consider the following example:
 
-# In[6]:
+# In[3]:
 
 max_val = 950
-limit = 200
 
 def one(anarg, second):
     '''
@@ -77,13 +76,18 @@ def main():
     '''
     local_var = 0
     
+one(0, 1)
+fun_two(5, 10)
 main()
+limit = 200
 
 
+# When each of the above functions is executed, what is the scope of the following identifiers?
+# 
 # |Name|visible in `one()`|visible in `fun_two()`|visible in `main()`|
 # |----|------------------|----------------------|-------------------|
 # |`max_val`|y|y|y|
-# |`limit`|y|y|y|
+# |`limit`|n|n|n|
 # |`main`|y|y|y|
 # |`local_var` (local variable in `main()`)|n|n|y|
 # |`one` (function)|y|n|y|
