@@ -1,0 +1,65 @@
+Track: The Twist
+Artist: Chubby Checker
+Duration: 2 mins and 33 seconds
+Popularity: 48
+Preview URL: https://p.scdn.co/mp3-preview/b075b715d84528dee3dc5365e17784113a2fc752
+
+Track: Smooth
+Artist: Santana
+Duration: 4 mins and 54 seconds
+Popularity: 66
+Preview URL: https://p.scdn.co/mp3-preview/9f977ebb2e695502c8b1d3bd678ef706c9ea4ccb
+
+Track: Mack the Knife
+Artist: Bobby Darin
+Duration: 3 mins and 4 seconds
+Popularity: 54
+Preview URL: https://p.scdn.co/mp3-preview/e8b0f9dfca9fd213711a72271025bcb8014e4a13
+
+Track: How Do I Live
+Artist: LeAnn Rimes
+Duration: 4 mins and 26 seconds
+Popularity: 61
+Preview URL: https://p.scdn.co/mp3-preview/dfd7958f815b8496b20d48d905697be6bc1dec28
+
+Track: Party Rock Anthem
+Artist: LMFAO
+Duration: 4 mins and 22 seconds
+Popularity: 62
+Preview URL: https://p.scdn.co/mp3-preview/cb3e9ef87d8a272868dbf23280ef6902f330a041
+
+Track: I Gotta Feeling
+Artist: The Black Eyed Peas
+Duration: 4 mins and 49 seconds
+Popularity: 66
+Preview URL: https://p.scdn.co/mp3-preview/e7ec841b64d6101eff6e20fb69f8b540927f9207
+
+Track: Macarena
+Artist: Los Del Rio
+Duration: 4 mins and 13 seconds
+Popularity: 62
+Preview URL: https://p.scdn.co/mp3-preview/3d5cc449365bc428be4082d94a3bb1ac87e03d00
+
+Track: Physical
+Artist: Olivia Newton-John
+Duration: 3 mins and 44 seconds
+Popularity: 47
+Preview URL: https://p.scdn.co/mp3-preview/d36d7daede08e4fed7b0d5d434bae18deea9a8d0
+
+Track: You Light Up My Life
+Artist: Debby Boone
+Duration: 3 mins and 38 seconds
+Popularity: 45
+Preview URL: https://p.scdn.co/mp3-preview/e0f00687c63eeceeb829ab03a71cd12b4220b101
+
+Track: Hey Jude
+Artist: The Beatles
+Duration: 7 mins and 5 seconds
+Popularity: 67
+Preview URL: https://p.scdn.co/mp3-preview/c718fc992246a4b070500515880bed0b517631ab
+
+Number of tracks in playlist: 10
+Average track duration: 4 mins and 17 seconds
+Longest track in playlist: Hey Jude at 7 mins and 5 seconds
+Average playlist track popularity: 57.80
+Most popular track in playlist: Hey Jude at 67 popularity

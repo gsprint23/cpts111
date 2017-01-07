@@ -1,0 +1,16 @@
+        CCCCCCCCCCCCC
+     CCCccccccccccccC
+   CCcccccccccccccccC
+  CcccccCCCCCCCCccccC
+ CcccccC       CCCCCC
+CcccccC              
+CcccccC              
+CcccccC              
+CcccccC              
+CcccccC              
+CcccccC              
+ CcccccC       CCCCCC
+  CcccccCCCCCCCCccccC
+   CCcccccccccccccccC
+     CCCccccccccccccC
+        CCCCCCCCCCCCC
