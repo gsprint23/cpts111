@@ -172,9 +172,15 @@ print("Total purchase price after tax: $%.2f" %(purchase))
 # You traveled 305.4 miles. At $0.35 per mile, your reimbursement is $106.89
 # ```
 
-# In[ ]:
+# In[1]:
 
+print("MILEAGE REIMBURSEMENT CALCULATOR")
+odo_begin = float(input("Please enter the beginning odometer reading: "))
+odo_end = float(input("Please enter the ending odometer reading: "))
 
+dist_traveled = odo_end - odo_begin
+reimbursement = dist_traveled * .35
+print("You traveled %.1f miles. At $0.35 per mile, your reimbursement is $%.2f" %(dist_traveled, reimbursement))
 
 
 # ### <mark>Problem #3 Pythagoras</mark>
@@ -197,14 +203,23 @@ print("Total purchase price after tax: $%.2f" %(purchase))
 # Pythagorean triple: 12^2 + 16^2 = 20^2
 # ```
 
-# In[ ]:
+# In[2]:
+
+m = int(input("Please enter an m value: "))
+n = int(input("Please enter an n value: "))
+
+side1 = m ** 2 - n ** 2
+side2 = 2 * m * n
+hypotenuse = m ** 2 + n ** 2
+
+print("Pythagorean triple: %d^2 + %d^2 = %d^2" %(side1, side2, hypotenuse))
 
 
+# In[3]:
 
-
-# In[ ]:
-
-# check result
+# check the output
+print(12 * 12 + 16 * 16)
+print(20 * 20)
 
 
 # ## TODO

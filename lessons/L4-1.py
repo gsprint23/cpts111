@@ -35,7 +35,7 @@
 # 
 # ### Implementation
 
-# In[8]:
+# In[1]:
 
 # get grade point and credit hours for each class
 print("Please enter the grade point for your computer science course: ")
@@ -88,13 +88,14 @@ print("Your GPA is: %.2f" %(gpa))
 # 
 # We have already used functions and seen them in action:
 
-# In[ ]:
+# In[3]:
 
 # type() is a function that accepts an argument and returns the data type of the argument
 # type is the function name
 # 42 is the argument
 # data_type stores the return value from type
 data_type = type(42)
+print(data_type)
 
 
 # Now, we are going to learn how to write our own functions!
@@ -123,7 +124,7 @@ data_type = type(42)
 # ## GPA Example Revisited: Enter Functions
 # Let's write a function called `get_grade_point()`:
 
-# In[3]:
+# In[4]:
 
 def get_grade_point(course_name):
     '''
@@ -170,7 +171,7 @@ print("Your GPA is: %.2f" %(gpa))
 
 # ### Let's write more functions for the other tasks in our program. Remember, 1 function = 1 task = 1 algorithm.
 
-# In[2]:
+# In[6]:
 
 def get_credits(course_name):
     '''
@@ -210,7 +211,7 @@ def display_gpa(gpa):
 
 # And now, the new and improved program that utilizes functions:
 
-# In[6]:
+# In[7]:
 
 # get grade point and credit hours for each class
 gp1 = get_grade_point("computer science")
