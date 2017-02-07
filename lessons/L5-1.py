@@ -58,7 +58,7 @@ main()
 # ## Program Crashes
 # If an error occurs in your program, Python prints a *traceback* message to the console, which contains information about the state of the call stack when the program crashes:
 
-# In[5]:
+# In[8]:
 
 def function_with_error(x):
     '''
@@ -123,6 +123,7 @@ def get_purchase_price():
     '''
     
     '''
+    
     user_price = float(input("Please enter the purchase price: "))
     return user_price
 
@@ -295,7 +296,23 @@ main()
 # 1. What about the design and implementation of functions is the *least* clear to you?
 # 1. Of the topics that we have covered so far in CptS 111, which topics (if any) are you unclear about? Please be specific.
 # 1. Practice exam problem: Define and call a function that accepts 3 numeric parameters. The function computes and returns the average of the three numeric parameters. Display the returned result. Note: do not prompt for user input. Hard-code numeric arguments to your function.
-#     1. If the above problem was an exam question, how would you do? Perform a self-assessment.
+# 1. If the above problem was an exam question, how would you do? Perform a self-assessment.
+
+# In[1]:
+
+# problem #4 solution
+def compute_average(num1, num2, num3):
+    '''
+    
+    '''
+    avg = (num1 + num2 + num3) / 3
+    return avg
+    
+# do not prompt for user input
+# hard code values (make up any 3 values to test the program)
+average = compute_average(-3.4, 5.68, 19)
+print("%.2f" %(average))
+
 
 # ## TODO
 # 1. Work on PA2.
