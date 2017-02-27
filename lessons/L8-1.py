@@ -20,7 +20,6 @@
 # Today, we'll learn about loops: the ability to repeatedly execute a sequence of statements.
 # 
 # We have already see examples where we have repeated functionality several times, such as:
-# * PA2: we prompted the user to enter mutiple city pairs
 # * Lab4: drawing arms of snowflakes with Turtle graphics
 # * Lab5: prompting the user to enter 5 numbers and computing the average
 # 
@@ -128,28 +127,11 @@ print("\n")
 # |1|\*|
 # |0|Exit loop|
 
-# Now let's write a program to print the first 20 even numbers:
+# Now let's write a program to print the first 20 even numbers (2 4 6 8 10 12 14 16 18 20 22 24 26 28 30 32 34 36 38 40):
 
-# In[3]:
+# In[ ]:
 
-print("One approach: ")
-i = 1
-while i <= 20:
-    print(i * 2)
-    i += 1
-    
-print("Another approach: ")
-i = 2 
-while i <= 40:
-    print(i)
-    i += 2
-    
-print("Another approach: ")
-i = 2
-while i <= 40:
-    if i % 2 == 0:
-        print(i)
-    i += 1
+
 
 
 # ## Looping Transactions
@@ -180,25 +162,9 @@ print("On average, you spend %.2f per credit card transaction" %(avg_spent_per_t
 # #### Completing the Guessing Game
 # Now that we know how to use `while` loops, let's add the functionality to continue prompting the user to guess a number, *until they guess correctly* (this is our stopping condition of our loop!).
 
-# In[5]:
+# In[ ]:
 
-num_to_guess = 4
-players_guess = 0
-correct = False
 
-while not correct:
-    print("Please enter a number between 1 and 10 inclusive")
-    players_guess = int(input())
-
-    # a guess is either equal to, greater than, or less than 
-    if players_guess == num_to_guess: # BC 1
-        print("Congrats, you guessed the number correctly")
-        correct = True # exit loop
-    elif players_guess > num_to_guess: # BC 2
-        print("Your guess was too high")
-    else: # players_guess < num_to_guess
-        print("Your guess was too low")
-print("Exiting guessing game program")
 
 
 # ## TODO
