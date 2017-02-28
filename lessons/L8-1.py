@@ -57,6 +57,12 @@ def compute_total_spent():
     total_spent += get_transaction_price()
     total_spent += get_transaction_price()
     total_spent += get_transaction_price()
+    total_spent += get_transaction_price()
+    total_spent += get_transaction_price()
+    total_spent += get_transaction_price()
+    total_spent += get_transaction_price()
+    total_spent += get_transaction_price()
+    
     
     return total_spent
 
@@ -129,15 +135,32 @@ print("\n")
 
 # Now let's write a program to print the first 20 even numbers (2 4 6 8 10 12 14 16 18 20 22 24 26 28 30 32 34 36 38 40):
 
-# In[ ]:
+# In[11]:
 
-
+print("One approach: ")
+i = 1
+while i <= 20:
+    print(i * 2)
+    i += 1
+    
+print("Another approach: ")
+i = 2 
+while i <= 40:
+    print(i)
+    i += 2
+    
+print("Another approach: ")
+i = 2
+while i <= 40:
+    if i % 2 == 0:
+        print(i)
+    i += 1
 
 
 # ## Looping Transactions
 # Now, let's rewrite our transaction program to read in a variable number of credit card transactions using loops:
 
-# In[4]:
+# In[8]:
 
 def compute_total_spent_loop(num_transactions):
     '''
@@ -162,9 +185,25 @@ print("On average, you spend %.2f per credit card transaction" %(avg_spent_per_t
 # #### Completing the Guessing Game
 # Now that we know how to use `while` loops, let's add the functionality to continue prompting the user to guess a number, *until they guess correctly* (this is our stopping condition of our loop!).
 
-# In[ ]:
+# In[10]:
 
+num_to_guess = 4
+players_guess = 0
+correct = False
 
+while not correct:
+    print("Please enter a number between 1 and 10 inclusive")
+    players_guess = int(input())
+
+    # a guess is either equal to, greater than, or less than 
+    if players_guess == num_to_guess: # BC 1
+        print("Congrats, you guessed the number correctly")
+        correct = True # exit loop
+    elif players_guess > num_to_guess: # BC 2
+        print("Your guess was too high")
+    else: # players_guess < num_to_guess
+        print("Your guess was too low")
+print("Exiting guessing game program")
 
 
 # ## TODO
