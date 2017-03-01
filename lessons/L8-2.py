@@ -13,9 +13,11 @@
 # * Apply the `for` reserved keyword to construct loops
 
 # ### Random Numbers
-# To generate random numbers, we need to import the `random` module. Then, we will call the function `randrange(start, stop)` to generate a random number in the range `start` to `stop - 1`.
+# To generate random numbers, we need to import the `random` module. Then, we can call either function to generate a random number:
+# 1. `randrange(start, stop)` to generate a random number in the range `start` to `stop - 1`
+# 2. `randint(start, stop)` to generate a random number in the range `start` to `stop`
 
-# In[1]:
+# In[5]:
 
 import random
 
@@ -32,7 +34,7 @@ print(rand_num)
 # ## Application of `while` Loops: Generating Multiple Random Numbers
 # Example problem: Write a program to display 10 random numbers in the range [1, 6] inclusive.
 
-# In[10]:
+# In[6]:
 
 import random
 
@@ -55,35 +57,35 @@ while i < 10:
 # 1. `take_menu_action(choice)`
 # 1. `main()`
 
-# In[17]:
+# In[1]:
 
 def display_menu():
     '''
     
     '''
-    print("**Welcome to my game!**")
+    print("\n**Welcome to my game!**")
     print("Please choose from the following options")
     print("1) View the game rules")
     print("2) Play the game")
     print("3) View the high score")
     print("4) Quit")
-   
+
 def take_menu_action(choice):
     '''
     
     '''
     if choice == 1:
+        print("Displaying rules...")
         # TODO call a function to display the rules
-        pass
     elif choice == 2:
+        print("Playing the game...")
         # TODO call a function to play the game
-        pass
     elif choice == 3:
+        print("Displaying the high score...")
         # TODO call a function to display the high score
-        pass
     elif choice == 4:
+        print("Saving game state and exiting...")
         # TODO call a function to save the state of the game (e.g. high score)
-        print("Thank you for playing")
     else:
         print("Not a valid menu option")
     
@@ -92,10 +94,9 @@ def main():
     
     '''
     choice = -1
-    
     while choice != 4:
         display_menu()
-        choice = int(input(">>"))
+        choice = int(input("Menu choice: "))
         take_menu_action(choice)
 
 main()
@@ -123,7 +124,7 @@ main()
 # 
 # Let's re-write our "first 20 even number code" using a `for` loop:
 
-# In[29]:
+# In[2]:
 
 for number in range(2, 42, 2):
     print(number)
@@ -149,7 +150,7 @@ for number in range(2):
 # 
 # Try writing a program to prompt the user to enter a number, then using `for` loop to print as many stars as the number the user entered.
 
-# In[4]:
+# In[3]:
 
 num_stars = int(input("Please enter the number of stars to print: "))
 
@@ -159,7 +160,7 @@ for i in range(num_stars):
 
 # Let's re-write our transaction loop code to use `for` loops instead of `while` loops:
 
-# In[27]:
+# In[4]:
 
 def read_transaction_price():
     '''
@@ -207,7 +208,7 @@ print("On average, you spend %.2f per transaction" %(avg_spent_per_transaction))
 # 
 
 # ## TODO
-# 1. Read Chapter 7 on iteration.
+# 1. Read Chapter 7,8,9 in zyBooks and Chapter 8 in *How to Think Like a Computer Scientist.*
 # 1. Get started with PA4, it's fun!
 # 
 # ## Next Lesson
