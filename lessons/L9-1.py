@@ -15,7 +15,7 @@
 # What is the output of the following loops? Remember to draw tables!
 # 
 
-# In[ ]:
+# In[1]:
 
 # 1
 x = 0
@@ -24,7 +24,7 @@ while x < 5:
     x += 1
 
 
-# In[ ]:
+# In[2]:
 
 # 2
 x = 0
@@ -33,7 +33,7 @@ while x < 5:
     print(x)
 
 
-# In[ ]:
+# In[3]:
 
 # 3
 x = 5
@@ -44,7 +44,7 @@ while x < 0:
 
 # In[ ]:
 
-# 4
+# 4 infinite loop
 x = 5
 while x < 10:
     print(x)
@@ -53,14 +53,14 @@ while x < 10:
 
 # In[ ]:
 
-# 5
+# 5 infinite loop
 x = 0
 while x < 5:
     print(x)
 x += 1
 
 
-# In[ ]:
+# In[4]:
 
 # 6
 x = 0
@@ -69,23 +69,23 @@ while x < 5:
 print(x)
 
 
-# In[ ]:
+# In[5]:
 
-# 7 error
+# 7
 x = 0
 while x < 5:
 print(x)
 x += 1
 
 
-# In[ ]:
+# In[6]:
 
 # 8
 for x in range(0, 3, 1):
     print(x)
 
 
-# In[ ]:
+# In[7]:
 
 # 9
 for i in range(1, 7, 2):
@@ -97,11 +97,11 @@ for i in range(1, 7, 2):
 # 
 # As an example, suppose we want to get input from the user until they enter the string "stop". When the user enters "stop", we want to stop getting numbers from the user and take an early exit of our loop:
 
-# In[1]:
+# In[8]:
 
 while True:
-    line = input("Please enter a string: ")
-    if line == "stop":
+    word = input("Please enter a word: ")
+    if word == "stop":
         break
 
 
@@ -110,7 +110,7 @@ while True:
 # * Indenting the bodies of the loops correctly
 # * Progress towards all of the Boolean conditions eventually being false
 
-# In[2]:
+# In[9]:
 
 for i in range(0, 5):
     print("%d " %(i), end="")
@@ -141,25 +141,35 @@ for i in range(0, 5):
 # *****
 # ```
 
-# In[ ]:
+# In[10]:
 
-
+num_lines = int(input("Number of lines: "))
+for i in range(num_lines):
+    for j in range(0, i + 1):
+        print("*", end="")
+    print()
 
 
 # ### Example Problem #2
 # Now try and print it the other way, with `num_lines` stars on the first line, `num_lines - 1` on the second, etc.
 
-# In[ ]:
+# In[1]:
 
-
+num_lines = int(input("Number of lines: "))
+for i in range(num_lines):
+    for j in range(i, num_lines):
+        print("*", end="")
+    print()
 
 
 # ### Example Problem #2 Alternative Solution
 # We could rewrite the above nested loop to instead use a single loop and the string repetition operator "*":
 
-# In[ ]:
+# In[2]:
 
-
+num_lines = int(input("Number of lines: "))
+for i in range(num_lines):
+    print("*" * (num_lines - i))
 
 
 # ## Guessing Game 2.0
@@ -233,6 +243,54 @@ def main():
         take_menu_action(choice)
 
 main()
+
+
+# ## MA12 Practice Problem
+# On a blank sheet of paper, write the following:
+# 1. Your full name
+# 1. Your TA name
+# 1. MA #12
+# 
+# In pairs (or individually), solve the following problems. Each student needs to turn in their own paper to get credit for MA12.
+# 
+# ### Problem 1
+# Write a program that prompts the user for an integer, `n`, representing a grid size. Using nesting loops, display a `n` by `n` grid of stars. Example:
+# 
+# ```
+# Please enter a n value: 5
+# * * * * * 
+# * * * * * 
+# * * * * * 
+# * * * * * 
+# * * * * * 
+# ```
+# 
+# ### Problem 2
+# Now, instead of stars, display numbers like the following example. Example:
+# 
+# ```
+# Please enter a n value: 5
+# 1 1 1 1 1 
+# 2 2 2 2 2 
+# 3 3 3 3 3 
+# 4 4 4 4 4 
+# 5 5 5 5 5 
+# ```
+
+# In[5]:
+
+# solutions
+
+num_lines = int(input("Number of lines: "))
+for i in range(num_lines):
+    for j in range(num_lines):
+        print("*", end=" ")
+    print()
+    
+for i in range(num_lines):
+    for j in range(num_lines):
+        print(i + 1, end=" ")
+    print()
 
 
 # ## TODO
