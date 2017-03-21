@@ -20,11 +20,11 @@ Hi there! My name is Butch and I am a Computer Science student at WSU. My CS int
 
 ### High School Diploma
 * Feline High School
-* June 2017
+* June 2016
 * 3.5 GPA
 
 ## Projects
-### Markdown to HTML Coverter
+### Markdown to HTML Converter
 * Python program to convert .md files to .html files
 * Supports headings, lists, and images
 * Publicly available on Github
@@ -49,4 +49,3 @@ Hi there! My name is Butch and I am a Computer Science student at WSU. My CS int
 * WSU CougarQuest
 * July 2015
 * Responsibilities include...
-
