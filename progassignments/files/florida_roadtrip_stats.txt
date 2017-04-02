@@ -1,20 +1,20 @@
 Spokane, WA to Yellowstone National Park, WY: 461.85 miles
 Yellowstone National Park, WY to Grand Teton National Park, WY: 6.86 miles
-Grand Teton National Park, WY to Salt Lake City, UT: 282.63 miles
+Grand Teton National Park, WY to Salt Lake City, UT: 284.48 miles
 Salt Lake City, UT to Bryce Canyon National Park, UT: 268.16 miles
-Bryce Canyon National Park, UT to Grand Canyon, AZ: 260.05 miles
+Bryce Canyon National Park, UT to Grand Canyon, AZ: 146.01 miles
 Grand Canyon, AZ to Surprise, AZ: 221.04 miles
-Surprise, AZ to Carlsbad Caverns National Park, NM: 600.18 miles
+Surprise, AZ to Carlsbad Caverns National Park, NM: 600.25 miles
 Carlsbad Caverns National Park, NM to San Antonio, TX: 460.93 miles
-San Antonio, TX to New Orleans, LA: 543.94 miles
+San Antonio, TX to New Orleans, LA: 543.70 miles
 New Orleans, LA to Panama City, FL: 327.48 miles
 Panama City, FL to Gainesville, FL: 254.42 miles
 
 ***Road trip stats***
 Number of waypoints on roadtrip: 10
 Number of days on roadtrip: 14
-Total miles traveled on roadtrip: 3433.12
-Longest roadtrip distance between waypoints is Surprise, AZ to Carlsbad Caverns National Park, NM: 600.18 miles
+Total miles traveled on roadtrip: 3320.76
+Longest roadtrip distance between waypoints is Surprise, AZ to Carlsbad Caverns National Park, NM: 600.25 miles
 Longest roadtrip days at one waypoint is San Antonio, TX: 3 days
-Average roadtrip distance between waypoints is: 343.31 miles
+Average roadtrip distance between waypoints is: 332.08 miles
 Average roadtrip days at one waypoint: 1 days
