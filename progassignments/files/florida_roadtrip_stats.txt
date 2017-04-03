@@ -17,4 +17,4 @@ Total miles traveled on roadtrip: 3320.76
 Longest roadtrip distance between waypoints is Surprise, AZ to Carlsbad Caverns National Park, NM: 600.25 miles
 Longest roadtrip days at one waypoint is San Antonio, TX: 3 days
 Average roadtrip distance between waypoints is: 332.08 miles
-Average roadtrip days at one waypoint: 1 days
+Average roadtrip days at one waypoint: 1.40 days
