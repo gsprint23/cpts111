@@ -121,7 +121,7 @@ print(numbers)
 
 
 # ## Returning Lists
-# We can write functions that return lists. Consider a function that returns a list of numbers from arguments `start_index` to `end_index + 1`:
+# We can write functions that return lists. Consider a function that returns a list of numbers from arguments `start_index` (inclusive) to `end_index` (exclusive):
 
 # In[27]:
 
